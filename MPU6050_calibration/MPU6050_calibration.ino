@@ -1,12 +1,3 @@
-// Arduino sketch that returns calibration offsets for MPU6050 //   Version 1.1  (31th January 2014)
-// Done by Luis Ródenas <luisrodenaslorda@gmail.com>
-// Based on the I2Cdev library and previous work by Jeff Rowberg <jeff@rowberg.net>
-// Updates (of the library) should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
-
-// These offsets were meant to calibrate MPU6050's internal DMP, but can be also useful for reading sensors. 
-// The effect of temperature has not been taken into account so I can't promise that it will work if you 
-// calibrate indoors and then use it outdoors. Best is to calibrate and use at the same room temperature.
-
 // I2Cdev and MPU6050 must be installed as libraries
 #include "I2Cdev.h"
 #include "MPU6050.h"
